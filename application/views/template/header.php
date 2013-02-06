@@ -9,12 +9,11 @@
 <link href="<?php echo base_url("css"); ?>/bootstrap.css" type="text/css" rel="stylesheet">
 <link href="<?php echo base_url("css"); ?>/bootstrap-responsive.css" type="text/css"
 	rel="stylesheet">
+<link href="<?php echo base_url("css"); ?>/font-awesome.css" type="text/css" rel="stylesheet">
 <link href="<?php echo base_url("css"); ?>/prettify.css" type="text/css" rel="stylesheet" />
 <link href="<?php echo base_url("css"); ?>/docs.css" type="text/css" rel="stylesheet" />
 
-<script type="text/javascript" src="<?php echo base_url("js"); ?>/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url("js"); ?>/bootstrap.js"></script>
-<script type="text/javascript" src="<?php echo base_url("js"); ?>/prettify.js"></script>
+<script type="text/javascript" src="<?php echo base_url("js"); ?>/jquery-1.9.0.min.js"></script>
 
 </head>
 <body data-offset="50" data-target=".subnav" data-spy="scroll" data-twttr-rendered="true">
@@ -23,19 +22,8 @@
 			<?php include_once 'topnav.php';?>
 		</div>
 	</div>
-	
+
 	<!-- Start of Main-Container -->
 	<div class="container">
 		<div class="main-data">
 	<input type="hidden" id="baseURL" value="<?php echo base_url(); ?>" />
-	<?php /*?>
-	<div class="container-fluid">
-		<div class="row-fluid">
-			<div class="span2">
-				<!--Sidebar content - Starts-->
-				<?php include_once 'sidebar.php';?>
-				<!--Sidebar content - Ends-->
-			</div>
-			<div class="span10">
-				<!--Body content - Starts-->
-	<?php */ ?>

@@ -11,15 +11,15 @@ class User_status {
 	{
 		// Obtain a reference to the ci super object
 		$this->CI =& get_instance();
-		
+
 		$this->CI->load->library('session');
-		
+
 	}
-	
+
 	function is_signed_in() {
-		
+
 		return $this->CI->session->userdata('user') ? TRUE : FALSE;
-		
+
 	}
 
 }

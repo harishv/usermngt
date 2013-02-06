@@ -36,6 +36,13 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
+// Custome Constants
+define('CONTACT_US', 'http://www.google.com/');
+define('TWITTER_URL', 'https://www.google.com/');
+define('FACEBOOK_URL', 'https://www.google.com/');
+define('LINKEDIN_URL', 'http://www.google.com/');
+
+
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

@@ -1,10 +1,10 @@
 @CHARSET "UTF-8";
 body {
 	background-color: #FFFFFF;
-    background-image: url("../img/grid-18px-masked.png");
+    /*background-image: url("../img/grid-18px-masked.png");
     background-position: 0 40px;
-    background-repeat: repeat-x;
-    padding-top: 90px;
+    background-repeat: repeat-x;*/
+    padding-top: 50px;
     position: relative;
 }
 
@@ -282,6 +282,23 @@ h2 + .row {
   margin-top: 5px;
 }
 
+.back-to-top {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.status-switch {
+    background: url(../img/switch.png) no-repeat 0 -2px;
+    width: 56px;
+    height: 26px;
+    /*margin: 2px;*/
+    cursor: pointer;
+    float: left;
+}
+
+.active_on {
+    background: url(../img/switch.png) no-repeat 0 -40px;
+}
 
 /* Responsive Docs
 -------------------------------------------------- */

@@ -7,7 +7,7 @@
  */
 
 $lang["brand_name"]					=	"Users Management";
-$lang["title"]						=	$lang["brand_name"] . " - Powered by Gowthami Reddy";
+$lang["title"]						=	$lang["brand_name"] . " - Powered by Gouthami Reddy";
 
 $lang["nav_home"]					=	"Home";
 $lang["nav_services"]				=	"Services";
@@ -19,7 +19,7 @@ $lang["nav_signout"]				=	"Sign out";
 $lang["nav_txt_view_my_profile"]	=	"View my profile page";
 $lang["nav_txt_change_pass"]		=	"Change Password";
 
-$lang["footer_product_desc"]		=	"<strong>" . $lang["brand_name"] . "</strong>, by Gowthami Reddy.";
+$lang["footer_product_desc"]		=	"<strong>" . $lang["brand_name"] . "</strong>, by Gouthami Reddy.";
 $lang["footer_follow_us"]			=	"Follow us on ";
 $lang["footer_maintained_by"]		=	"Maintained by ";
 
@@ -52,13 +52,34 @@ $lang["lang_spanish"]			= 	"Spanish (Español)";
  * Form fields of Login page
  */
 
-$lang["login_form_title"]		=	"Social Network Tracker Login";
-$lang["login_form_login_id"]	=	"Login ID";
-$lang["login_form_login_id_ph"]	=	"Login ID";
-$lang["login_form_login_id_eg"]	=	"user@socialnetworktracker.com";
+$lang["login_form_title"]		=	$lang["brand_name"] . " Login Form";
+$lang["login_form_login_id"]	=	"Login/ User ID";
+$lang["login_form_login_id_ph"]	=	"Login/ User ID";
+$lang["login_form_login_id_eg"]	=	"user@gmail.com";
 $lang["login_form_password"]	=	"Password";
 $lang["login_form_password_ph"]	=	"Password";
 $lang["login_form_action_btn"]	=	"Login";
+$lang["login_form_access_err"]	=	"Please Login to access this feature";
+
+
+/**
+ * Fields Index Page
+ */
+
+$lang["fields_index_title"]		=	"Fields Management";
+$lang["fields_index_desc"]		=	"Here, we can manage all the Standerd feilds used in the application.";
+$lang["fields_index_list"]		=	"Fields List";
+$lang["fields_index_add_new"]	=	"Add New Field";
+
+
+/**
+ * Students Index Page
+ */
+
+$lang["students_index_title"]		=	"Students Management";
+$lang["students_index_desc"]		=	"Here, we can manage all the Students data here.";
+$lang["students_index_list"]		=	"Students List";
+$lang["students_index_add_new"]		=	"Add New Student";
 
 
 /* End of file general_lang.php */
